@@ -3,7 +3,7 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 gems:                [jekyll-paginate]
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:               Snippets
@@ -22,6 +22,6 @@ author:
 # Custom vars
 version:             1.0.0
 pages_list:
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
+  About: '/snippets/about'
+  Archive: '/snippets/archive'
+  Feed: '/snippets/atom.xml'
