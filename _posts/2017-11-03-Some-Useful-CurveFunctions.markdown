@@ -55,7 +55,7 @@ plt.show()
     
 
 
-![png](CurveManipulationFunctions_files/CurveManipulationFunctions_4_1.png)
+![png](/snippets/public/CurveManipulationFunctions_4_1.png)
 
 
                      Force    Force2
@@ -75,7 +75,7 @@ plt.show()
     
 
 
-![png](CurveManipulationFunctions_files/CurveManipulationFunctions_4_3.png)
+![png](/snippets/public/CurveManipulationFunctions_4_3.png)
 
 
 # Extrapolate using last slope
@@ -116,7 +116,7 @@ plt.show()
     
 
 
-![png](CurveManipulationFunctions_files/CurveManipulationFunctions_6_1.png)
+![png](/snippets/public/CurveManipulationFunctions_6_1.png)
 
 
 # Digitize Curve
@@ -157,7 +157,7 @@ plt.show()
     
 
 
-![png](CurveManipulationFunctions_files/CurveManipulationFunctions_8_1.png)
+![png](/snippets/public/CurveManipulationFunctions_8_1.png)
 
 
 
@@ -192,7 +192,7 @@ plt.show()
     
 
 
-![png](CurveManipulationFunctions_files/CurveManipulationFunctions_9_1.png)
+![png](/snippets/public/CurveManipulationFunctions_9_1.png)
 
 
 
@@ -247,7 +247,7 @@ plt.show()
     
 
 
-![png](CurveManipulationFunctions_files/CurveManipulationFunctions_10_1.png)
+![png](/snippets/public/CurveManipulationFunctions_10_1.png)
 
 
 
