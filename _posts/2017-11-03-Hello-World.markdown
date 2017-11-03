@@ -1,4 +1,8 @@
-# Hello World !
+___
+
+layout: post
+title: Hello World
+___
 
 Off late, I've been interested in machine learning and computer vision. There are a lot of good resources online to get us started on
 these methods. I've been referring so many different blogs that keeping track of them is an effort. 
