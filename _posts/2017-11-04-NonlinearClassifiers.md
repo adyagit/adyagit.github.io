@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 categories: python machine_learning Neural_Networks
 title: Nonlinear Decision Boundaries
 ---
