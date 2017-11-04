@@ -7,9 +7,7 @@ layout: post
 Logistic classifier is a  Linear Classifier. It takes a linear function ***X*** and multiples it with a Weight matrix ***W***. The outputs are referred to as scores. 
 
 
-\begin{equation}
-WX + b = y 
-\end{equation}
+$$WX + b = y $$
 
 
 Here ***b*** is the bias vector. The score or Logit **[y]** vector will have the highest value for the class that the sample belongs to and low for every other class. For a Logistic Classifier we need to turn the scores to ***probabilities***. This is done using the ***softmax*** function. The *softmax* function is as shown below
