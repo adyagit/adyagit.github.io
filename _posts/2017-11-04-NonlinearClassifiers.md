@@ -19,7 +19,7 @@ plt.show()
 ```
 
 
-![png](NonlinearClassifiers_files/NonlinearClassifiers_1_0.png)
+![png](/snippets/public/NonlinearClassifiers_1_0.png)
 
 
 For the distribution below there is no linear decision boundary that seperates out the blue points from the green. For such cases Linear Classifiers will not work.
@@ -52,7 +52,7 @@ plt.show()
 ```
 
 
-![png](NonlinearClassifiers_files/NonlinearClassifiers_3_0.png)
+![png](/snippets/public/NonlinearClassifiers_3_0.png)
 
 
 We can create additional features that allow for more complex decision boundaries. Like in the figure shown below, the author combines three step functions to get a cubic decison boundary. 
@@ -81,7 +81,7 @@ plt.show()
 ```
 
 
-![png](NonlinearClassifiers_files/NonlinearClassifiers_6_0.png)
+![png](/snippets/public/NonlinearClassifiers_6_0.png)
 
 
 This step function activates the neurons (sets output to 1) if Y > 0 else the neuron is not activated. This works best for a binary classifier. But for a multiclass classifer all Neurons would end up resulting in 1. Hence they are best only for a binary classifier.
@@ -108,7 +108,7 @@ plt.show()
 ```
 
 
-![png](NonlinearClassifiers_files/NonlinearClassifiers_8_0.png)
+![png](/snippets/public/NonlinearClassifiers_8_0.png)
 
 
 
@@ -135,7 +135,7 @@ plt.show()
 ```
 
 
-![png](NonlinearClassifiers_files/NonlinearClassifiers_10_0.png)
+![png](/snippets/public/NonlinearClassifiers_10_0.png)
 
 
 Its a smooth and “step like” function. It is nonlinear in nature. Combinations of this function are also nonlinear. Now we can stack layers.It will give an analog activation unlike step function. It has a smooth gradient too.
@@ -165,7 +165,7 @@ plt.show()
 ```
 
 
-![png](NonlinearClassifiers_files/NonlinearClassifiers_12_0.png)
+![png](/snippets/public/NonlinearClassifiers_12_0.png)
 
 
 Tanh is very similar to sigmoid. The function is smooth and non linear. The bounds are between (-1 and 1) though. The gradients are steeper than sigmoid
@@ -193,7 +193,7 @@ plt.show()
 ```
 
 
-![png](NonlinearClassifiers_files/NonlinearClassifiers_15_0.png)
+![png](/snippets/public/NonlinearClassifiers_15_0.png)
 
 
 Imagine a big neural network with a lot of neurons. Using a sigmoid or tanh will cause almost all neurons to fire in an analog way. That means almost all activations will be processed to describe the output of a network. In other words the activation is dense. This is costly. We would ideally want a few neurons in the network to not activate and thereby making the activations sparse and efficient.
