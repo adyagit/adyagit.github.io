@@ -1,8 +1,8 @@
 ---
 layout: post
+categories: python machine_learning shallow_net
+title: Multinomial Logistic Classifier
 ---
-
-# Multinomial Logistic Classifier
 
 Logistic classifier is a  Linear Classifier. It takes a linear function ***X*** and multiples it with a Weight matrix ***W***. The outputs are referred to as scores.
 
@@ -102,7 +102,7 @@ instability and also to condition the model so that the minima can be easily fou
 
 Also it is important to start with a good initial guess for the weights and the biases. This is ensured by picking the initial guess from a gaussian distribution with mean 0 and standard deviation **$$\sigma$$**. Usually a small value of **$$\sigma$$** is preferred as opposed to a large **$$\sigma$$** since these can be more opinionated. I dont fully understand why but lets accept it for now.
 
-The optimization algorithm now computes the gradients of the loss function with respect to the weights and biases. The weights and biases are moved in a direction opposite to these gradients. The step size $\alpha$ is called the learning rate.
+The optimization algorithm now computes the gradients of the loss function with respect to the weights and biases. The weights and biases are moved in a direction opposite to these gradients. The step size $$\alpha$$ is called the learning rate.
 
 $$\begin{equation}
 w \Leftarrow w - \alpha \Delta_{w} £\\
