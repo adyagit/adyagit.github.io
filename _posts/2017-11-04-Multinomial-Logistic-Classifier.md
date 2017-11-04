@@ -68,7 +68,7 @@ p_{3}
 
 The overall flow of the algorithm would then be
 
-\begin{equation}
+$$\begin{equation}
 \overset{X - Input}{\begin{bmatrix}
 x_{1}\\
 x_{2}\\
@@ -87,7 +87,7 @@ p_{3}
 0
 \end{bmatrix}}
 \end{equation}
-
+$$
 Now the objective is to find the weights ***W*** and biases ***b***. The best weights and biases are those that give low distance for correct class prediction and high distance for a wrong prediction. This now becomes a funtion minimization task.
 
 The Loss function ***£*** we are trying to minimize is the global average cross entropy given by
