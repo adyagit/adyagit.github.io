@@ -57,7 +57,7 @@ One-hot Encoding assigns 1 for the correct class and exactly zero for all other 
 
 Now to assess our prediction we can compare our probability predictions to this one hot encoded vector using the distance measure ***Cross-Entropy*** 
 
-\begin{equation}
+$\begin{equation}
 \begin{bmatrix}
 p_{1} \\
 p_{2} \\
@@ -67,7 +67,7 @@ p_{3}
 0 \\
 0
 \end{bmatrix} 
-\end{equation}
+\end{equation}$
 
 The overall flow of the algorithm would then be 
 
