@@ -100,7 +100,7 @@ $$\begin{equation}
 It is always advisable to have a zero mean and equal variance for all the input variables when ever possible to avoid numerical
 instability and also to condition the model so that the minima can be easily found by the optimizer.
 
-Also it is important to start with a good initial guess for the weights and the biases. This is ensured by picking the initial guess from a gaussian distribution with mean 0 and standard deviation **$\sigma$**. Usually a small value of **$\sigma$** is preferred as opposed to a large **$\sigma$** since these can be more opinionated. I dont fully understand why but lets accept it for now.
+Also it is important to start with a good initial guess for the weights and the biases. This is ensured by picking the initial guess from a gaussian distribution with mean 0 and standard deviation **$$\sigma$$**. Usually a small value of **$$\sigma$$** is preferred as opposed to a large **$$\sigma$$** since these can be more opinionated. I dont fully understand why but lets accept it for now.
 
 The optimization algorithm now computes the gradients of the loss function with respect to the weights and biases. The weights and biases are moved in a direction opposite to these gradients. The step size $\alpha$ is called the learning rate.
 
