@@ -55,7 +55,7 @@ One-hot Encoding assigns 1 for the correct class and exactly zero for all other 
 
 Now to assess our prediction we can compare our probability predictions to this one hot encoded vector using the distance measure ***Cross-Entropy***
 
-$$\begin{bmatrix}
+$$\begin{equation}\begin{bmatrix}
 p_{1} \\
 p_{2} \\
 p_{3}
@@ -107,11 +107,11 @@ The optimization algorithm now computes the gradients of the loss function with 
 $$\begin{equation}
 w \Leftarrow w - \alpha \Delta_{w} £\\
 b \Leftarrow b - \alpha \Delta_{b} £\\
-\end{equation}
+\end{equation}$$
 
 Finally for ***N*** inputs and ***K*** outputs we have
 
-\begin{equation}
+$$\begin{equation}
 (N+1)K
 \end{equation}$$ parameters to solve for
 
