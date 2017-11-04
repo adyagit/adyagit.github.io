@@ -12,9 +12,9 @@ $$WX + b = y $$
 
 Here ***b*** is the bias vector. The score or Logit **[y]** vector will have the highest value for the class that the sample belongs to and low for every other class. For a Logistic Classifier we need to turn the scores to ***probabilities***. This is done using the ***softmax*** function. The *softmax* function is as shown below
 
-\begin{equation}
+$$\begin{equation}
 S(y_i) = \frac{e^{y_i}}{\sum\limits_{j} e^{y_j}}
-\end{equation}
+\end{equation}$$
 
 This function takes high scores and converts it to a probability very close to 1 and assigns a low probability ~ 0 for low scores. The probabilities sum to 1.
 
@@ -55,7 +55,7 @@ One-hot Encoding assigns 1 for the correct class and exactly zero for all other 
 
 Now to assess our prediction we can compare our probability predictions to this one hot encoded vector using the distance measure ***Cross-Entropy***
 
-\begin{bmatrix}
+$$\begin{bmatrix}
 p_{1} \\
 p_{2} \\
 p_{3}
@@ -64,7 +64,7 @@ p_{3}
 0 \\
 0
 \end{bmatrix}
-\end{equation}
+\end{equation}$$
 
 The overall flow of the algorithm would then be
 
@@ -92,9 +92,9 @@ Now the objective is to find the weights ***W*** and biases ***b***. The best we
 
 The Loss function ***£*** we are trying to minimize is the global average cross entropy given by
 
-\begin{equation}
+$$\begin{equation}
 £ = \frac{1}{N} \sum\limits_{i}D(S(wx_i + b),L_i)
-\end{equation}
+\end{equation}$$
 
 
 It is always advisable to have a zero mean and equal variance for all the input variables when ever possible to avoid numerical
@@ -104,7 +104,7 @@ Also it is important to start with a good initial guess for the weights and the 
 
 The optimization algorithm now computes the gradients of the loss function with respect to the weights and biases. The weights and biases are moved in a direction opposite to these gradients. The step size $\alpha$ is called the learning rate.
 
-\begin{equation}
+$$\begin{equation}
 w \Leftarrow w - \alpha \Delta_{w} £\\
 b \Leftarrow b - \alpha \Delta_{b} £\\
 \end{equation}
@@ -113,7 +113,7 @@ Finally for ***N*** inputs and ***K*** outputs we have
 
 \begin{equation}
 (N+1)K
-\end{equation} parameters to solve for
+\end{equation}$$ parameters to solve for
 
 
 ```python
