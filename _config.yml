@@ -3,6 +3,8 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 gems:                [jekyll-paginate]
 permalink:           pretty
+markdown: kramdown
+
 #relative_permalinks: true
 
 # Setup
