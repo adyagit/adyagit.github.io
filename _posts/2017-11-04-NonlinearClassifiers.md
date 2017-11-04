@@ -1,5 +1,9 @@
+---
+layout: posts
+categories: python machine_learning Neural_Networks
+title: Nonlinear Decision Boundaries
+---
 
-# Nonlinear Decision Boundaries
 Multinomial Logistic Classifier is a linear classifier. For linear classifiers the decision boundaries are linear like the one shown below. It partitions the feature space using a linear function. This might not always work for us.
 
 
