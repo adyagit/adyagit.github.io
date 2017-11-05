@@ -3,6 +3,7 @@ layout: post
 title: Initializing A Deep Neural network
 category: python machine_learning deep_nets Initializing
 ---
+
 This snippet is from Andrew Ng 's coursera course on deep learning.
 
 One of the first tasks we need to do in building a deep network is to initialize the parameters properly. The helper function below takes the dimensions of the network in terms of number of hidden units in each layer and initializes the parameters accordingly. The initialized parameters are stored in a dictionary to make for easy retrieval.
@@ -43,7 +44,7 @@ def initialize_parameters_deep(layer_dims):
     return parameters
 ```
 
-<table style="width:100%">
+
     <tr>
         <td>  </td>
         <td> $$**Shape of W**$$ </td>
@@ -93,4 +94,4 @@ def initialize_parameters_deep(layer_dims):
         <td> $$Z^{[L]} =  W^{[L]} A^{[L-1]} + b^{[L]}$$</td>
         <td> $$(n^{[L]}, 209)$$  </td>
     <tr>
-</table>
+
