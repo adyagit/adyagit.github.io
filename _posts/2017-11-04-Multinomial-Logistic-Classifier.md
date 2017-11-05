@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: python machine_learning shallow_net
+category: python machine_learning shallow_net
 title: Multinomial Logistic Classifier
 ---
 
