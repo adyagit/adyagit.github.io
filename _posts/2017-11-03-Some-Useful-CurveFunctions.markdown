@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Some Useful Curve Functions
-categories: python utilities curve_manipulation
+category: python utilities curve_manipulation
 ---
 
 ## This class will have functions used for curve manipulations
