@@ -44,7 +44,7 @@ def initialize_parameters_deep(layer_dims):
     return parameters
 ```
 
-
+<table>
     <tr>
         <td>  </td>
         <td> $$**Shape of W**$$ </td>
@@ -94,4 +94,4 @@ def initialize_parameters_deep(layer_dims):
         <td> $$Z^{[L]} =  W^{[L]} A^{[L-1]} + b^{[L]}$$</td>
         <td> $$(n^{[L]}, 209)$$  </td>
     <tr>
-
+</table>
