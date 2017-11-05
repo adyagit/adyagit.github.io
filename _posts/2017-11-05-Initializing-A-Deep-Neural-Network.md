@@ -14,6 +14,7 @@ The table below shows an example network dimensions.
 
 For a L layer Neural, where $$n^{[l]}$$ is the number of units in layer $$l$$, if the size of our input $$X$$ is $$(12288, 209)$$ (with $$m=209$$ examples) then
 
+
  
 ```python
 def initialize_parameters_deep(layer_dims):
@@ -43,6 +44,9 @@ def initialize_parameters_deep(layer_dims):
 
     return parameters
 ```
+
+|           | **Shape of W** | **Shape of B** | **Activation** | **Shape of Activation**|
+|**Layer 1**|$$(n^{[1]},12288)$$|$$(n^{[1]},1)$$|$$Z^{[1]} = W^{[1]}  X + b^{[1]} $$|$$(n^{[1]},209)$$|
 
 
   <table style="width:60%">
