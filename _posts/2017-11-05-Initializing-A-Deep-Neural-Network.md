@@ -64,8 +64,6 @@ For a L layer Neural, where $$n^{[l]}$$ is the number of units in layer $$l$$, i
         <td> $$(n^{[L]}, 209)$$  </td>
     <tr>
 
-</table>
-
 
 To initialize our weights and biases we can use the helper function below
 
