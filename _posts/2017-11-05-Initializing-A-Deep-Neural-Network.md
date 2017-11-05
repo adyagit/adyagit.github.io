@@ -43,7 +43,6 @@ def initialize_parameters_deep(layer_dims):
 
     return parameters
 ```
-
 <table style="width:100%">
     <tr>
         <td>  </td>
@@ -78,8 +77,8 @@ def initialize_parameters_deep(layer_dims):
         <td> $$\vdots$$  </td>
     <tr>
 
-   <tr>
-        <td> **Layer L-1** </td>
+    <tr>
+        <td> $$**Layer L-1**$$ </td>
         <td> $$(n^{[L-1]}, n^{[L-2]})$$ </td>
         <td> $$(n^{[L-1]}, 1)$$  </td>
         <td>$$Z^{[L-1]} =  W^{[L-1]} A^{[L-2]} + b^{[L-1]}$$ </td>
@@ -87,8 +86,8 @@ def initialize_parameters_deep(layer_dims):
     <tr>
 
 
-   <tr>
-        <td> **Layer L** </td>
+    <tr>
+        <td> $$**Layer L**$$ </td>
         <td> $$(n^{[L]}, n^{[L-1]})$$ </td>
         <td> $$(n^{[L]}, 1)$$ </td>
         <td> $$Z^{[L]} =  W^{[L]} A^{[L-1]} + b^{[L]}$$</td>
