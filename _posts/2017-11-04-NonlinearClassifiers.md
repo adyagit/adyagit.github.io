@@ -61,10 +61,10 @@ plt.show()
 
 We can create additional features that allow for more complex decision boundaries. Like in the figure shown below, the author combines three step functions to get a cubic decison boundary. 
 
-<img src="neural_net_act_func.png" alt="Neural Net" style="width: 800px;"/>
+<img src="/snippets/public/neural_net_act_func.png" alt="Neural Net" style="width: 800px;"/>
 
 These actuation functions are chosen in such a way that they have a smooth derivative like shown below.
-<img src="neural_net_act_func_smooth.png" alt="Neural Net" style="width: 800px;"/>
+<img src="/snippets/public/neural_net_act_func_smooth.png" alt="Neural Net" style="width: 800px;"/>
 
 The common choises are 
 
