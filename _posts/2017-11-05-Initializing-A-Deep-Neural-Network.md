@@ -45,7 +45,7 @@ For a L layer Neural, where $$n^{[l]}$$ is the number of units in layer $$l$$, i
         <td> $$\vdots$$ </td>
         <td> $$\vdots$$  </td>
         <td> $$\vdots$$  </td>
-        <td> $$\vdots$</td>
+        <td> $$\vdots$$</td>
         <td> $$\vdots$$  </td>
     <tr>
 
