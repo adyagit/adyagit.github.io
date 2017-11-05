@@ -63,9 +63,7 @@ For a L layer Neural, where $$n^{[l]}$$ is the number of units in layer $$l$$, i
         <td> $$Z^{[L]} =  W^{[L]} A^{[L-1]} + b^{[L]}$$</td>
         <td> $$(n^{[L]}, 209)$$  </td>
     <tr>
-
-
-To initialize our weights and biases we can use the helper function below
+</table>
 
 
 ```python
