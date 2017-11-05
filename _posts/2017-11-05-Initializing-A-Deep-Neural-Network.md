@@ -32,10 +32,10 @@ def initialize_parameters_deep(layer_dims):
     L = len(layer_dims)            # number of layers in the network
 
     for l in range(1, L):
-        ### START CODE HERE ### (≈ 2 lines of code)
+
         parameters['W' + str(l)] = np.random.randn(layer_dims[l], layer_dims[l-1])*0.01
         parameters['b' + str(l)] = np.zeros((layer_dims[l],1))
-        ### END CODE HERE ###
+ 
 
         assert(parameters['W' + str(l)].shape == (layer_dims[l], layer_dims[l-1]))
         assert(parameters['b' + str(l)].shape == (layer_dims[l], 1))
@@ -45,7 +45,7 @@ def initialize_parameters_deep(layer_dims):
 ```
 
 
- <table style="width:100%">
+  <table style="width:60%">
     <tr>
         <td>  </td>
         <td> $$**Shape of W**$$ </td>
@@ -95,4 +95,4 @@ def initialize_parameters_deep(layer_dims):
         <td> $$Z^{[L]} =  W^{[L]} A^{[L-1]} + b^{[L]}$$</td>
         <td> $$(n^{[L]}, 209)$$  </td>
     <tr>
- </table>
+  </table>
