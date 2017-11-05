@@ -44,7 +44,7 @@ def initialize_parameters_deep(layer_dims):
     return parameters
 ```
 
-<table>
+<table style="width:100%">
     <tr>
         <td>  </td>
         <td> $$**Shape of W**$$ </td>
