@@ -14,18 +14,16 @@ The table below shows an example network dimensions.
 For a L layer Neural, where $$n^{[l]}$$ is the number of units in layer $$l$$, if the size of our input $$X$$ is $$(12288, 209)$$ (with $$m=209$$ examples) then
 
 <table>
-
-
     <tr>
         <td>  </td>
-        <td> **Shape of W** </td>
-        <td> **Shape of b**  </td>
-        <td> **Activation** </td>
-        <td> **Shape of Activation** </td>
+        <td> $$**Shape of W**$$ </td>
+        <td> $$**Shape of b**$$ </td>
+        <td> $$**Activation**$$ </td>
+        <td> $$**Shape of Activation**$$ </td>
     <tr>
 
     <tr>
-        <td> **Layer 1** </td>
+        <td> $$**Layer 1**$$ </td>
         <td> $$(n^{[1]},12288)$$ </td>
         <td> $$(n^{[1]},1)$$ </td>
         <td> $$Z^{[1]} = W^{[1]}  X + b^{[1]} $$ </td>
@@ -34,7 +32,7 @@ For a L layer Neural, where $$n^{[l]}$$ is the number of units in layer $$l$$, i
     <tr>
 
     <tr>
-        <td> **Layer 2** </td>
+        <td> $$**Layer 2**$$ </td>
         <td> $$(n^{[2]}, n^{[1]})$$  </td>
         <td> $$(n^{[2]},1)$$ </td>
         <td>$$Z^{[2]} = W^{[2]} A^{[1]} + b^{[2]}$$ </td>
