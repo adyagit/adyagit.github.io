@@ -1,3 +1,7 @@
+---
+layout: post
+category: python machine_learning deep_learning 
+---
 
 The best part about Andrew Ng's Deep Learning course was how elegantly he broke down the whole network into its constituents. In the previous post I've posted his explanation of how to initialize the parameters. That is the first step of building a model. In this post we will see how the Forward Propagation module works. This module will be broken down into three steps 
 
