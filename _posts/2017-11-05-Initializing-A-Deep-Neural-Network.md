@@ -11,9 +11,9 @@ Weights are randomly initialized and biases are set to zero.
 
 The table below shows an example network dimensions.
 
-For a L layer Neural, where $$n^{[l]}$$ is the number of units in layer $$l$$, if the size of our input $$X$$ is $$(12288, 209)$$ (with $$m=209$$ examples) then:
+For a L layer Neural, where $$n^{[l]}$$ is the number of units in layer $$l$$, if the size of our input $$X$$ is $$(12288, 209)$$ (with $$m=209$$ examples) then
 
-<table style="width:100%">
+<table>
 
 
     <tr>
