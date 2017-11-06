@@ -93,7 +93,10 @@ def linear_activation_forward(A_prev, W, b, activation):
 
     return A, cache
 ```
-The above work fwell for a single layer. For a L-Layer model we will have to loop through each layer and do the forward prop. 
+
+### Linear Forward Activation for ***L*** Layers
+
+The above function works well for a single layer. For a L-Layer model we will have to loop through each layer and do the forward prop. 
 **L-1** layers will have the **RELU** activation and the last layer will have the **SIGMOID** activation. 
 We need to append the cache from each layer to a bigger array "`caches`" for use during the back prop step. 
 
