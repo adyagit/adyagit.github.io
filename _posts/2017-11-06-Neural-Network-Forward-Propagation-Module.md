@@ -7,7 +7,7 @@ The best part about Andrew Ng's Deep Learning course was how elegantly he broke 
 
 - LINEAR
 - LINEAR -> ACTIVATION where ACTIVATION will be either ReLU or Sigmoid. 
-- [LINEAR -> RELU] $\times$ (L-1) -> LINEAR -> SIGMOID (whole model)
+- [LINEAR -> RELU] $$\times$$ (L-1) -> LINEAR -> SIGMOID (whole model)
 
 ### Linear Forward
 The LINEAR function is the one that generates the logits. This function will be called linear_forward. This will take the activation from the previous layer, the weights of the current layer and the biases of the current layer and generate the input for the activation function also called the ***pre-activation*** parameter or the ***logits***
