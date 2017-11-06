@@ -43,15 +43,15 @@ def linear_forward(A, W, b):
 
 The output from the previous function is fed into the activation function int this step. The activation function used for the **L-1** hidden layers will be **RELU** . The last layer will use a **SIGMOID** activation since the output from that will be between 0 and 1. This makes it easier to define a cost function that can be used for our weights  optimization.
 
-- **ReLU**: The mathematical formula for ReLu is $A = RELU(Z) = max(0, Z)$. 
-- **Sigmoid**: $\sigma(Z) = \sigma(W A + b) = \frac{1}{ 1 + e^{-(W A + b)}}$
+- **ReLU**: The mathematical formula for ReLu is $$A = RELU(Z) = max(0, Z)$$. 
+- **Sigmoid**: $$\sigma(Z) = \sigma(W A + b) = \frac{1}{ 1 + e^{-(W A + b)}}$$
 
 These functions return **two** items: the activation value "`A`" and a "`cache`" that contains "`Z`"
 
 The function implementation will have a LINEAR forward step followed by an ACTIVATION forward step.
 
 Mathematical relation is: 
-$A^{[l]} = g(Z^{[l]}) = g(W^{[l]}A^{[l-1]} +b^{[l]})$ where the activation "g" can be sigmoid() or relu()
+$$A^{[l]} = g(Z^{[l]}) = g(W^{[l]}A^{[l-1]} +b^{[l]})$$ where the activation "g" can be sigmoid() or relu()
 
 
 ```python
@@ -93,10 +93,12 @@ def linear_activation_forward(A_prev, W, b, activation):
 
     return A, cache
 ```
+The above work fwell for a single layer. For a L-Layer model we will have to loop through each layer and do the forward prop. 
+**L-1** layers will have the **RELU** activation and the last layer will have the **SIGMOID** activation. 
+We need to append the cache from each layer to a bigger array "`caches`" for use during the back prop step. 
 
 
 ```python
-# GRADED FUNCTION: L_model_forward
 
 def L_model_forward(X, parameters):
     """
@@ -120,17 +122,15 @@ def L_model_forward(X, parameters):
     # Implement [LINEAR -> RELU]*(L-1). Add "cache" to the "caches" list.
     for l in range(1, L):
         A_prev = A 
-        ### START CODE HERE ### (≈ 2 lines of code)
+        
         A, cache = linear_activation_forward(A_prev, parameters["W"+ str(l)], parameters['b'+ str(l)], activation='relu')
         caches.append(cache)
-        ### END CODE HERE ###
+        
     
     # Implement LINEAR -> SIGMOID. Add "cache" to the "caches" list.
-    ### START CODE HERE ### (≈ 2 lines of code)
     
     AL, cache = linear_activation_forward(A,parameters["W"+ str(L)], parameters['b'+ str(L)], activation='sigmoid')
     caches.append(cache)
-    ### END CODE HERE ###
     
     assert(AL.shape == (1,X.shape[1]))
             
