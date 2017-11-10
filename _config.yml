@@ -12,7 +12,7 @@ title:               Snippets
 tagline:             'some notes and snippets'
 description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:                 https://adyagit.github.io/snippets
-baseurl:             '/snippets'
+baseurl:             ''
 paginate:            5
 
 # About/contact
@@ -24,6 +24,6 @@ author:
 # Custom vars
 version:             1.0.0
 pages_list:
-  About: '/snippets/about'
-  Archive: '/snippets/archive'
-  Feed: '/snippets/atom.xml'
+  About: '/about'
+  Archive: '/archive'
+  Feed: '/atom.xml'
