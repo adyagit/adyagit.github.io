@@ -28,5 +28,5 @@ If the height and width of the image is fully preserved then such a convolution 
 
 Padding also helps in preserving the information from borders of the image. 
 
-![png](/snippets/public/PAD.png)
+![Padding an Image. Image from https://www.coursera.org/learn/convolutional-neural-networks/home/week/1](/snippets/public/PAD.png)
 
