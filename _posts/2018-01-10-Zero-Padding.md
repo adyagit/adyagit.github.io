@@ -10,7 +10,7 @@ $$ n_H = \lfloor \frac{n_{H_{prev}} - f}{stride} \rfloor +1 $$
 $$ n_W = \lfloor \frac{n_{W_{prev}} - f}{stride} \rfloor +1 $$
 
 
-If we have for example a 32 $x$ 32 image. With a stride of 1 and a filter size of 3 $x$ 3 we will end up with a 30 $x$ 30 image.
+If we have for example a 32 $$x$$ 32 image. With a stride of 1 and a filter size of 3 $$x$$ 3 we will end up with a 30 $$x$$ 30 image.
 
 Padding is a convenient way to maintain the image size and convolve an image without shrinking it. With padding the 
 resulting image dimensions are give by 
