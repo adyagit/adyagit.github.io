@@ -1,0 +1,11 @@
+---
+layout: post
+category: python machine_learning Neural_Networks
+---
+
+Pooling helps reduce the computation. Based on the type of pooling selected, it either finds the max or average of all the elements in the
+filter size. 
+
+Pooling also makes the features invariant to the spatial position of the feature within the image
+
+![Fig1](/snippets/public/a_pool.png)
