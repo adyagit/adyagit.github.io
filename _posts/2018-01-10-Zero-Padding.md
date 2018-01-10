@@ -28,3 +28,5 @@ If the height and width of the image is fully preserved then such a convolution 
 
 Padding also helps in preserving the information from borders of the image. 
 
+![png](/snippets/public/PAD.png)
+
