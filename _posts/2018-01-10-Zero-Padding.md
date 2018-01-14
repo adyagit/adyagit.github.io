@@ -24,7 +24,7 @@ General formula to determine padding is
 
 $$ p = \frac{ f - 1}{2} $$
 
-If the height and width of the image is fully preserved then such a convolution is termed as **"same"** convolution.
+If the height and width of the image is fully preserved then such a convolution is termed as **"same"** convolution. Otherwise its termed as **"valid"** convolution.
 
 Padding also helps in preserving the information from borders of the image. 
 
