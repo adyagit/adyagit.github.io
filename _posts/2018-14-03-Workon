@@ -1,0 +1,12 @@
+---
+layout: post
+title: Workon virtualenv
+---
+
+While trying to use "workon env_name" on a ubuntu instance on aws suddenly I started getting 
+
+ERROR: Environment 'dl4cv' does not exist. Create it with 'mkvirtualenv dl4cv'.
+
+The work around was 
+
+source /home/ubuntu/.virtualenvs/dl4cv/bin/activate
