@@ -16,6 +16,7 @@ $$\begin{equation}
 S(y_i) = \frac{e^{y_i}}{\sum\limits_{j} e^{y_j}}
 \end{equation}$$
 
+Softmax is a good choice since it takes any score and converts it into a positive value since its raised to the power of on exponential. 
 This function takes high scores and converts it to a probability very close to 1 and assigns a low probability ~ 0 for low scores. The probabilities sum to 1.
 
 
@@ -54,6 +55,8 @@ The true labels are then encoded using ***One-Hot Encoding***.
 One-hot Encoding assigns 1 for the correct class and exactly zero for all other classes for the given sample
 
 Now to assess our prediction we can compare our probability predictions to this one hot encoded vector using the distance measure ***Cross-Entropy***
+
+The choise of a log los function is because the log function is monotonic and hence taking derivatives of the function and optimizing it is much easier.
 
 $$\begin{equation}\begin{bmatrix}
 p_{1} \\
