@@ -3,11 +3,6 @@ layout: post
 category: python machine_learning k-nn 
 ---
 
-# k-NN classifier
-
-
-<br><br>
-
 The k-Nearest Neighbor classifier is by far the most simple machine learning and image classification
 algorithm. It doesn’t actually “learn” anything. Instead, this
 algorithm relies on the distance between feature vectors 
