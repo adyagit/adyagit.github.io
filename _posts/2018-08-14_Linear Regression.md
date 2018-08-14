@@ -1,5 +1,7 @@
-
-# Linear Regression 
+---
+layout: post
+category: python machine_learning LinearRegression
+---
 
 This function fits a polynomial LinearRegression model on the training data X_train for degrees 1, 3, 6, and 9. 
 <br>
