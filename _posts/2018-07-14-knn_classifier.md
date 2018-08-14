@@ -26,7 +26,7 @@ Euclidean distance is calculated as the square root of the sum of the squared di
 <br>
 <br>
 
-$ d(p,q) = \sqrt{\sum\limits_{i=1}^n (q_i -p_i)^2} $
+$$ d(p,q) = \sqrt{\sum\limits_{i=1}^n (q_i -p_i)^2} $$
 
 ### k-NN for Regression
 When k-NN is used for regression problems the prediction is based on the mean or the median of the K-most similar instances.
