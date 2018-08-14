@@ -1,4 +1,7 @@
-
+---
+layout: post
+category: python machine_learning k-nn 
+---
 
 # k-NN classifier
 <div style="text-align: left"> May 5th 2018</div>
